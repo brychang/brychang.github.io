@@ -3,6 +3,10 @@ layout: default
 permalink: /
 ---
 
+# Home
+
+I am interested in how to predict behaviors of collections of objects reliably and efficiently. This applies to how neurons give rise to high-level reasoning, how embryos grow into adults, how carp swim in schools, how traffic flows in cities, how infectious diseases spread through populations, and how societies make progress.
+
 ## Posts
 
 <ul>
@@ -13,7 +17,7 @@ permalink: /
   {% endfor %}
 </ul>
 
-## Tags
+## Posts by Tag
 
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
